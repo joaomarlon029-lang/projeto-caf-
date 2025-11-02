@@ -12,8 +12,12 @@ body {
 	justify-content: space-between;
 }
 
-section{
-	background-image: url();
+#sct1{
+	background-color: #CA9875E5;
+	background-image: url(Group\ 7.jpg);
+	background-position: center;
+	background-size: cover;
+
 }
 
 #sct2 {
@@ -40,6 +44,12 @@ section{
 #front{
 	display: flex;
 	justify-content: space-between;
+	padding: 80px;
+}
+
+.caneco{
+	padding: 80px;
+	height: 100vh;
 }
 
 .item {
@@ -67,9 +77,10 @@ section{
 	border-radius:5px;
 	background-color: #332a1a;
 	color: aliceblue;
-	margin: 10px;
+	margin: 40px;
 	height: 6vh;
 	width: 20vw;
+	cursor: pointer;
 }
 
 .btne {
@@ -80,9 +91,11 @@ section{
 	margin: 10px;
 	height: 6vh;
 	width: 20vw;
+	cursor: pointer;
 }
 
 footer{
+	background-image: url(Group\ 7.jpg);
 	height: 300px;
 }
 
