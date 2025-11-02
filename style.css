@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: rgba(165, 42, 42, 0.502);
+}
+
 #container{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -18,3 +22,32 @@
 .item {
 	padding: 40px;
 }
+
+.btn1{
+	height: 4vh;
+	width: 3vw;
+}
+
+.btn2{
+	height: 4vh;
+	width: 3vw;
+}
+
+.cart {
+	margin: 10px;
+	height: 4vh;
+	width: 3vw;
+}
+
+.btnc {
+	margin: 10px;
+	height: 4vh;
+	width: 8vw;
+}
+
+.btne {
+	margin: 10px;
+	height: 4vh;
+	width: 8vw;
+}
+
