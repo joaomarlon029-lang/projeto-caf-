@@ -25,7 +25,6 @@ body {
 }
 
 .nsscf{
-	margin: ;
 	height: 42px;
 	font-size:28px;
 	padding: 45px;
@@ -100,8 +99,63 @@ body {
 }
 
 footer{
-	background-image: url(Group\ 7.jpg);
+	background-image: ;
 	height: 300px;
 }
 
+/* Rodapé geral */
+.footer {
+  background-color: #c68b5f; 
+  background-image: url(Group\ 7.jpg); 
+  background-size: cover;
+  background-position: center;
+  color: #2c1b0f; /* marrom escuro */
+  padding: 40px 80px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+/* conteúdo alinhado */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* texto do rodapé */
+.footer-text h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer-text p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-text .rights {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #2c1b0f;
+}
+
+.footer-text span {
+  font-weight: bold;
+}
+
+/* botão voltar ao topo */
+.back-to-top {
+  background-color: #7a4a23;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #5e3519;
+}
 
