@@ -1,18 +1,31 @@
-*{
+
+
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
-	background-color: rgba(165, 42, 42, 0.502);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#cabeçalho{
+
+.recep {
+	padding: 10px;
+	font-size: 25px;
+}
+
+#cabeçalho {
+	padding: 30px;
 	display: flex;
 	justify-content: space-between;
+	font-weight: bold;
+	font-size: 30px;
+}
+.titulo {
+	margin 20px;
 }
 
-#sct1{
+#sct1 {
 	background-color: #CA9875E5;
 	background-image: url(Group\ 7.jpg);
 	background-position: center;
@@ -24,34 +37,33 @@ body {
 	background-color: aliceblue;
 }
 
-.nsscf{
+.nsscf {
 	height: 42px;
-	font-size:28px;
+	font-size: 28px;
 	padding: 45px;
 	color: #403937;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#container1{
+#container1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
 
-#container{
+#container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	padding: 15px;
 	margin: 20px;
 }
 
-#front{
+#front {
 	display: flex;
 	justify-content: space-between;
 	padding: 80px;
 }
 
-.caneco{
+.caneco {
 	padding: 80px;
 	height: 100vh;
 }
@@ -60,12 +72,12 @@ body {
 	padding: 40px;
 }
 
-.btn1{
+.btn1 {
 	height: 4vh;
 	width: 3vw;
 }
 
-.btn2{
+.btn2 {
 	height: 4vh;
 	width: 3vw;
 }
@@ -78,7 +90,7 @@ body {
 
 .btnc {
 	border: none;
-	border-radius:5px;
+	border-radius: 5px;
 	background-color: #332a1a;
 	color: aliceblue;
 	margin: 40px;
@@ -89,7 +101,7 @@ body {
 
 .btne {
 	border: none;
-	border-radius:5px;
+	border-radius: 5px;
 	background-color: #00955a;
 	color: aliceblue;
 	margin: 10px;
@@ -98,64 +110,50 @@ body {
 	cursor: pointer;
 }
 
-footer{
-	background-image: ;
-	height: 300px;
-}
-
-/* Rodapé geral */
 .footer {
-  background-color: #c68b5f; 
-  background-image: url(Group\ 7.jpg); 
-  background-size: cover;
-  background-position: center;
-  color: #2c1b0f; /* marrom escuro */
-  padding: 40px 80px;
-  position: relative;
-  font-family: Arial, sans-serif;
+	background-color: #c68b5f;
+	background-image: url(Group\ 7.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #2c1b0f;
+	padding: 40px 80px;
+	position: relative;
+	font-family: Arial, sans-serif;
 }
 
 /* conteúdo alinhado */
 .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10vh;
 }
 
 /* texto do rodapé */
 .footer-text h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: 5px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-bottom: 5px;
 }
 
-.footer-text p {
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
 
-.footer-text .rights {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  color: #2c1b0f;
-}
-
-.footer-text span {
-  font-weight: bold;
-}
-
-/* botão voltar ao topo */
 .back-to-top {
-  background-color: #7a4a23;
-  color: #fff;
-  padding: 8px 10px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: background 0.3s;
+	background-color: #7a4a23;
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 6px;
+	text-decoration: none;
+	font-size: 1.2rem;
 }
 
 .back-to-top:hover {
-  background-color: #5e3519;
+	background-color: #5e3519;
 }
 
+.barra {
+	border-bottom: #000000 2px solid;
+	width: 100%;
+}
+footer h3{
+	height: 5vh;
+}
